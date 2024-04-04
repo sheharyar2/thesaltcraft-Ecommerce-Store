@@ -1,0 +1,28 @@
+.banner{
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+}
+.product_popular{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  padding-left: 10px;
+}
+
+.product_popular_text h1{
+  font-family:Cabin,sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  width: 630px;
+}
+.product_popular_text p{
+  font-family: Mulish,sans-serif;
+  font-size: 16px;
+  color: #555555;
+  line-height: 28.8px;
+  width: 630px;
+  margin: 0px 0px 20px;
+}

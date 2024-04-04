@@ -32,7 +32,7 @@ function Navbar() {
                 <Link to="/login">
                     <img src={heart} alt="" className={styles.nav_wishlist}/>
                 </Link>
-                <img src={cart} className={styles.nav_cart} alt="" />
+                <img src={cart} className={styles.nav_cart} onClick={cart} alt="" />
             </div>
         </div>
     );
