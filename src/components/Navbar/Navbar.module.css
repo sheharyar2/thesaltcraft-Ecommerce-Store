@@ -1,0 +1,33 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav_menu li{
+    margin: 0px 24px 0px 0px;
+    font-size: 15.4px;
+    font-family: Lato ,sans-serif;
+}
+Link{
+    text-decoration: none;
+}
+.nav_logo img{
+    width: 80px;
+    height: 80px;
+}
+.nav_wishlist{
+    margin: 0px 15px 0px 0px;
+
+}
+.nav_wishlist,.nav_cart{
+    width: 20.02px;
+    height: 20.02px;
+}
