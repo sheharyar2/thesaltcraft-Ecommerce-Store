@@ -11,7 +11,7 @@ function Shopcategory(){
         <div className={styles.Shopcategory}>
             <h1>Shop By Category</h1>
             <div className={styles.Shopcategory_parent_container}>
-                (
+                
                     {
                         categories.map((img,index)=>(
                             <div className={styles.Shopcategory_child_container} key={index}>
@@ -19,7 +19,6 @@ function Shopcategory(){
                             </div>
                         ))
                     }
-                )
                 
             </div>
         </div>
