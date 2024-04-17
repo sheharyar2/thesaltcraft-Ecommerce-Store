@@ -1,3 +1,5 @@
+
+
 const featuredProducts =[
     {
         "id": 5480,
@@ -11,7 +13,8 @@ const featuredProducts =[
         "height": 3.7,
         "sale_price": 980,
         "regular_price": 1400,
-        "Category": "Multicolor Lamps"
+        "Category": "Multicolor Lamps",
+        "image":'/assets/pictures/MULTICOLOR/globe/globe_main.jpg'
        },
        {
         "id": 5179,
@@ -25,7 +28,8 @@ const featuredProducts =[
         "height": 5,
         "sale_price": 1925,
         "regular_price": 2750,
-        "Category": "Signature Lamps"
+        "Category": "Signature Lamps",
+        "image":"/assets/pictures/SIGNATURE/DIAMOND/main.jpg"
        },
        {
         "id": 5160,
@@ -39,11 +43,12 @@ const featuredProducts =[
         "height": 8,
         "sale_price": 1740,
         "regular_price": 2200,
-        "Category": "Signature Lamps"
+        "Category": "Signature Lamps",
+        "image":"/assets/pictures/SIGNATURE/NATURAL/main.jpg"
        },
        {
         "id": 5553,
-        "name": "ROUND",
+        "name": "BOWL",
         "description": "Transform your space with the breathtaking beauty of our Laser Cutting Basket Salt Lamps. Handcrafted from pure Himalayan salt, these lamps are not only stunning to look at but also offer a range of health benefits.\\n\\nWith their intricate laser-cut designs, these salt lamps make the perfect addition to any room in your home, office, or workplace. Their soft glow creates a relaxing ambiance, helping to reduce stress and promote concentration, making them ideal for use in a meditation room or as a night light.\\n\\nIncorporating a Himalayan salt lamp into your daily life is a simple and effective way to improve your health. The negative ions released by the salt help to purify the air, reducing allergens and promoting overall well-being. Whether you use it as an aromatherapy salt lamp or simply for its decorating qualities, this basket salt lamp is sure to add a touch of style and serenity to any room.\\n\\nSo why settle for a boring lamp when you can have a unique and beneficial lighting solution? Add our Laser Cutting Basket Salt Lamp to your home today and experience the many benefits of Himalayan salt. Whether you're looking for a wellness accessory, a natural air purifier, or simply a beautiful home d?cor item, this salt lamp has you covered.",
         "stock_check": 1,
         "stock": 2,
@@ -53,7 +58,8 @@ const featuredProducts =[
         "height": 6,
         "sale_price": 2450,
         "regular_price": 3500,
-        "Category": "Premium Lamps"
+        "Category": "Premium Lamps",
+        "image":"/assets/pictures/PREMIUM/BOWL/main.jpg"
        },
        {
         "id": 5146,
@@ -67,7 +73,8 @@ const featuredProducts =[
         "height": 6,
         "sale_price": 2205,
         "regular_price": 3150,
-        "Category": "Signature Lamps"
+        "Category": "Signature Lamps",
+        "image":"/assets/pictures/SIGNATURE/MOON/main.png"
        },
        {
         "id": 5546,
@@ -81,7 +88,9 @@ const featuredProducts =[
         "height": 10,
         "sale_price": 2345,
         "regular_price": 3350,
-        "Category": "Premium Lamps"
+        "Category": "Premium Lamps",
+        "image":"/assets/pictures/PREMIUM/LANTERN/main.jpg"
+
        },
        {
         "id": 5549,
@@ -95,7 +104,9 @@ const featuredProducts =[
         "height": 8,
         "sale_price": 3350,
         "regular_price": 4850,
-        "Category": "Premium Lamps"
+        "Category": "Premium Lamps",
+        "image":"/assets/pictures/PREMIUM/HEXAGONE/main.jpg"
+
        },
        {
         "id": 5550,
@@ -109,8 +120,11 @@ const featuredProducts =[
         "height": 8,
         "sale_price": 3350,
         "regular_price": 4850,
-        "Category": "Premium Lamps"
+        "Category": "Premium Lamps",
+        "image":"/assets/pictures/PREMIUM/ZigZag/main.png"
+
+
        },
 
 ]
-export featuredProducts;
+export default featuredProducts;

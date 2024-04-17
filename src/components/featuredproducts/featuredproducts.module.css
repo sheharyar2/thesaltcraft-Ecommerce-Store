@@ -1,0 +1,67 @@
+.container{
+    margin-bottom: 50px;
+}
+
+.featuredproducts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* More responsive setup */
+    grid-gap: 20px;
+    margin: 0 auto; /* Center the grid horizontally */
+    max-width: 1200px; /* Maximum width of the grid */
+    min-height: 372.22px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.featuredproducts img {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 262.5px; /* Maximum height for uniformity */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.featuredproducts_detail {
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center-align the items horizontally within each cell */
+    text-align: center; /* Center-align the text */
+    background: #fff; /* Optional: for better visibility */
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+
+.featuredproducts_title{
+    line-height: 1.4;
+}
+.featuredproducts_title p{
+    font-size: 16px;
+    font-family: Lato,sans-serif ;
+}
+.featuredproducts_title :nth-child(1){
+    color: #888888;
+    padding: 15px 0px 0px 0px;
+}
+.featuredproducts_title :nth-child(2){
+    padding: 0px ;
+    font-weight: 700;
+}
+
+.featuredproducts_prices{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.featuredproducts_prices p{
+    font-size: 16px;
+    font-family: Lato;
+}
+.featuredproducts_prices :nth-child(1){
+    color: #888888;
+}

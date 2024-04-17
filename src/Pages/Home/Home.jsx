@@ -1,10 +1,12 @@
 import styles from './Home.module.css';
-import banner from '../../assets/pictures/other_images/banner.jpg'
-import product_popular_img from '../../assets/pictures/other_images/popular_product.png'
-import product_unique_img from '../../assets/pictures/other_images/unique_product.png'
+import banner from '/assets/pictures/other_images/banner.jpg'
+import product_popular_img from '/assets/pictures/other_images/popular_product.png'
+import product_unique_img from '/assets/pictures/other_images/unique_product.png'
 import TrendingCollection from '../../components/trending_collection_banner/trending_collection_banner';
 import { Link } from 'react-router-dom';
 import Shopcategory from '../../components/shopcategory/Shopcategory';
+import FeaturedProducts from '../../components/featuredproducts/featuredproducts';
+import BlogSection from '../../components/blog_section/BlogSection';
 function Home(){
     return(
         <div>
@@ -34,6 +36,8 @@ function Home(){
         </div>
         <Shopcategory />
         <TrendingCollection/>
+        <FeaturedProducts />
+        <BlogSection />
         </div>
        
     )

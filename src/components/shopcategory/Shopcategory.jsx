@@ -1,7 +1,7 @@
 import styles from './Shopcategory.module.css'
-import signature from '../../assets/pictures/category_main_images/signature.jpg'
-import premium from '../../assets/pictures/category_main_images/premium.jpg'
-import multicolor from '../../assets/pictures/category_main_images/multicolor.jpg'
+import signature from '/assets/pictures/category_main_images/signature.jpg'
+import premium from '/assets/pictures/category_main_images/premium.jpg'
+import multicolor from '/assets/pictures/category_main_images/multicolor.jpg'
 
 
 function Shopcategory(){

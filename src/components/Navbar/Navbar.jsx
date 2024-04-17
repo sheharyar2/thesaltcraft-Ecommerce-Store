@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import styles from './Navbar.module.css'
-import logo_black from '../../assets/logo_black.png'
-import heart from '../../assets/icons/heart.png'
-import cart from '../../assets/icons/cart.png'
+import logo_black from '/assets/logo_black.png'
+import heart from '/assets/icons/heart.png'
+import cart from '/assets/icons/cart.png'
 
 
 function Navbar() {
