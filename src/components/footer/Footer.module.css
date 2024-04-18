@@ -20,15 +20,8 @@
     padding: 5px 0px;
     font-size: 16px;
     font-family: Lato,sans-serif;
-    display: flex;
-    justify-content: flex-start;
 }
 
-.footer_pages p{
-    font-size: 18px;
-    font-family: Lato,sans-serif;
-    font-weight: 600;
-}
 .footer_pages ul{
     list-style-type: none;
 }
@@ -42,8 +35,34 @@
     color: black;
     cursor: pointer;
 }
-.footer_social p{
+.footer_pages,.footer_social,.subscribe_form p{
     font-size: 18px;
     font-family: Lato,sans-serif;
     font-weight: 600;
+}
+.footer_social img{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.subscribe_form form input{
+    width: 228.8px;
+    height: 38px;
+    padding: 0px 17px;
+    border: 1px solid rgb(129, 138, 145);
+    background-color: transparent;
+    border-radius: 5px;
+}
+.subscribe_form button{
+    width: 264.8px;
+    height: 40px;
+    padding: 0px 17px;
+    background-color: #7a7a7a;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: Lato,sans-serif;
+    font-size: 15px;
 }

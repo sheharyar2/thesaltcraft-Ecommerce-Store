@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 import logo_black from '/assets/logo_black.png';
+import fb_icon from '/assets/icons/fb_icon.png';
+import insta_icon from '/assets/icons/insta_icon.png'
 
 function Footer(){
     return(
@@ -31,9 +33,19 @@ function Footer(){
             <div className={styles.footer_social}>
                 <p>Social Media Links</p>
                 <div className={styles.social_icons}>
+                    <img src={fb_icon} alt="" />
+                    <img src={insta_icon} alt="" />
 
                 </div>
-
+            </div>
+            <div className={styles.subscribe_form}>
+            <p>Subscribe Now</p>
+            <form>
+                <label>
+                    <input type="email" placeholder='Email' />
+                </label>
+            </form>
+            <button>SEND</button>
             </div>
         </div>
     )
