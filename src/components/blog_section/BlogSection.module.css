@@ -44,3 +44,6 @@
 .blog_details{
     margin-top: 20px;
 }
+.blog_details p{
+    font-family: Lato,sans-serif;
+}

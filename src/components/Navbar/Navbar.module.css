@@ -16,8 +16,10 @@
     font-size: 15.4px;
     font-family: Lato ,sans-serif;
 }
-Link{
+a{
     text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 .nav_logo img{
     width: 80px;

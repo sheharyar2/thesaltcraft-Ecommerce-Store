@@ -18,8 +18,8 @@ function FeaturedProducts(){
                         <p>{product.name}</p>
                         </div>
                         <div className={styles.featuredproducts_prices}>
-                        <p><s>RS:{product.sale_price}.00</s></p>
-                        <p>RS:{product.regular_price}.00</p>
+                        <p><s>RS:{product.regular_price}.00</s></p>
+                        <p>RS:{product.sale_price}.00</p>
                         </div>
                         </div>
                        
